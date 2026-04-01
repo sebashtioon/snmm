@@ -118,7 +118,8 @@ volume_db = -16.581
 autoplay = true
 
 [node name="MainCamera" type="Camera3D" parent="."]
-transform = Transform3D(-1, 3.75896e-15, 8.74228e-08, 9.82073e-09, 0.99367, 0.112336, -8.68694e-08, 0.112336, -0.99367, 0, 5.02883, -7.83363)
+transform = Transform3D(-1, 3.75896e-15, 8.74228e-08, 9.82073e-09, 0.99367, 0.112336, -8.68694e-08, 0.112336, -0.99367, 0, 3.11359, -7.83363)
+fov = 60.7
 
 [node name="Physical" type="Node" parent="."]
 
@@ -146,5 +147,10 @@ draw_pass_1 = SubResource("QuadMesh_06d3e")
 
 [node name="Logo" type="Sprite3D" parent="Physical"]
 transform = Transform3D(-4.06288, 0, 3.55188e-07, 0, 4.06288, 0, -3.55188e-07, 0, -4.06288, 0, 1.91978, 20.8403)
-modulate = Color(0.662452, 0.662452, 0.662452, 1)
+shaded = true
+texture = ExtResource("11_efxa6")
+
+[node name="Logo2" type="Sprite3D" parent="Physical"]
+transform = Transform3D(-4.06288, 0, 3.55188e-07, 0, 4.06288, 0, -3.55188e-07, 0, -4.06288, 0, 1.91978, 21.2108)
+shaded = true
 texture = ExtResource("11_efxa6")
